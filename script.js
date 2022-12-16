@@ -9,7 +9,7 @@ $("#findmyweather").click(function(event)
     {
         let city=$("#city").val()
         $("#loading").fadeIn();
-        $.get("scrapper.php?city="+city,function(data)
+        $.get("api/scrapper.php?city="+city,function(data)
         {
             $("#loading").hide()
             if(data)
