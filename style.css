@@ -1,0 +1,30 @@
+html,body{
+    height: 100%;
+}
+.container{
+    background-image: url('https://unsplash.com/photos/pElM4yerF5Q/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjY3NDEzNjU1');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+}
+.center{
+    text-align: center;
+}
+.white{
+    color: white;
+    /* color: black; */
+}
+p{
+    padding: 15px 15px;
+}
+button{
+    margin: 20px 5px;
+}
+.alert{
+    display: none;
+}
+#copy{
+    display: none;
+}
