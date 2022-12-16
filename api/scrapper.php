@@ -1,5 +1,5 @@
 <?php
-// error_reporting(0);
+error_reporting(0);
 ini_set('max_execution_time', '100');
 $city=$_GET['city'];
 $city=str_replace(' ','-',$city);
